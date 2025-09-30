@@ -78,3 +78,5 @@ Get-AlarmDefinition -Name "TPM Encryption Recovery Key Backup Alarm"
 
 # Re-enable the alarm, which resets it to green
 # Set-AlarmDefinition -AlarmDefinition $alarmDef -Enabled:$true
+
+Disconnect-VIServer * -Confirm:$false
